@@ -1,0 +1,66 @@
+.product-card {
+    background-color: #FFFFFF;
+    width: 208px;
+    height: 208px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 8px 8px 4px 0px #00000040;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  #product-card .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .overlay {
+    /* position: absolute; */
+    padding: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2EAE1B2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .product-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay p {
+    font-size: 30px;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+  }
+  
+  .overlay button {
+    width: 81px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    /* margin-bottom: 52.5px; */
+  }
+  .overlay .edit-button {
+    background-color: #FEAF00;
+  }
+  .overlay .delete-button {
+    background-color: #FE0000;
+  }
+  

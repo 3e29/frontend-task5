@@ -1,0 +1,76 @@
+#add .content {
+  max-width: 997px;
+}
+#add .title-holder {
+  margin: 8.4vh 0;
+}
+#add .title {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+#add form .row {
+  row-gap: 13.3vh;
+}
+#add .saveButton {
+  width: 199px;
+  height: 61px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #feaf00;
+  border: none;
+}
+#add form label {
+  font-size: 32px;
+  font-weight: 500;
+  color: #6c6c6c;
+}
+#add form input {
+  height: 44px;
+  /* width: 100%; */
+  max-width: 415.87px;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+}
+#add form input:focus {
+  border-color: #ffc107 !important;
+  box-shadow: 0 0 0 0.2rem #ffc1078d !important;
+  outline: none !important;
+}
+
+#add form input::placeholder {
+  font-size: 12px !important;
+  color: #cdcdcd !important;
+}
+#add .name-price {
+  row-gap: 64px;
+}
+#add form .productImage-holder {
+  background: url("../assets/img/addProductImage.svg") no-repeat center;
+  border: 1px dashed #384eb74d;
+  border-radius: 4px;
+  background-color: #f8f8ff;
+  width: 100% !important;
+  height: 211px !important;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add form .productImage-holder.custom-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f8f8ff;
+  width: 208px;
+  height: 208px;
+}
